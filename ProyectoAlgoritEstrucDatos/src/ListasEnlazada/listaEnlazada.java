@@ -1,6 +1,5 @@
 
-package listasEnlazadas;
-
+package ListasEnlazada;
 
 public class listaEnlazada {
     public static void main(String[] args) {

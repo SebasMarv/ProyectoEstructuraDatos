@@ -1,7 +1,7 @@
-package listasEnlazadas;
+package ListasEnlazada;
 
 public class Node {
-    
+
     String data;
     Node next;
 

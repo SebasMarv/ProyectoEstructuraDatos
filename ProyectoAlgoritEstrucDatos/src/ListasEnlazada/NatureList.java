@@ -1,4 +1,4 @@
-package listasEnlazadas;
+package ListasEnlazada;
 
 public class NatureList {
     private Node head;
@@ -62,6 +62,5 @@ public class NatureList {
         }
         System.out.println("null");
     }
-
 
 }

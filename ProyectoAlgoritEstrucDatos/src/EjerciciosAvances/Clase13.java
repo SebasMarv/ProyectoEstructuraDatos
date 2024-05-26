@@ -1,8 +1,8 @@
-package trabajoFinal;
+package EjerciciosAvances;
 
 import java.util.Stack;
 
-public class Clase13b {
+public class Clase13 {
 
     public static void main(String[] args) {
         String infixExpression = "a + b * c - (d / e + f) * g";
