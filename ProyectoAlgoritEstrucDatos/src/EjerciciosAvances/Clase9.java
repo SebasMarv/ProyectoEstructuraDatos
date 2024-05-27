@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Preguntas;
+package EjerciciosAvances;
 
 import java.util.Stack;
 
@@ -10,7 +10,7 @@ import java.util.Stack;
  *
  * @author jtorr
  */
-public class EvaluarPostFija {
+public class Clase9 {
 
     // Método para evaluar la expresión postfija
     public static int evaluarPostfija(String expresion) {
@@ -22,7 +22,8 @@ public class EvaluarPostFija {
             // Si el carácter es un operando (número), apilarlo
             if (Character.isDigit(c)) {
                 pila.push(c - '0'); // Convertir el carácter a número y apilarlo
-            } // Si el carácter es un operador, desapilar los operandos, aplicar la operación y apilar el resultado
+            } // Si el carácter es un operador, desapilar los operandos, aplicar la operación
+              // y apilar el resultado
             else {
                 int operando2 = pila.pop();
                 int operando1 = pila.pop();

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Preguntas;
+package EjerciciosAvances;
 
 import java.util.Stack;
 
@@ -10,7 +10,7 @@ import java.util.Stack;
  *
  * @author jtorr
  */
-public class CompiladorSimple {
+public class Clase10 {
 
     // Método para obtener la precedencia del operador
     private static int precedencia(char operador) {
@@ -71,8 +71,8 @@ public class CompiladorSimple {
                 pila.push(String.valueOf(c));
                 codigoMaquina.append("PUSH ").append(c).append("\n");
             } else {
-                String operando2 = pila.pop();
-                String operando1 = pila.pop();
+                // String operando2 = pila.pop();
+                // String operando1 = pila.pop();
 
                 switch (c) {
                     case '+':

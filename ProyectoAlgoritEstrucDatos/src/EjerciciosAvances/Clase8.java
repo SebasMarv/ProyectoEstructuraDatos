@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Preguntas;
+package EjerciciosAvances;
 
 import java.util.Stack;
 
@@ -10,7 +10,7 @@ import java.util.Stack;
  *
  * @author jtorr
  */
-public class InfijaAPostfija {
+public class Clase8 {
 
     // Método para obtener la precedencia del operador
     private static int precedencia(char operador) {
@@ -42,7 +42,8 @@ public class InfijaAPostfija {
             } // Si el carácter es un paréntesis de apertura, apilarlo
             else if (c == '(') {
                 pila.push(c);
-            } // Si el carácter es un paréntesis de cierre, desapilar hasta encontrar un paréntesis de apertura
+            } // Si el carácter es un paréntesis de cierre, desapilar hasta encontrar un
+              // paréntesis de apertura
             else if (c == ')') {
                 while (!pila.isEmpty() && pila.peek() != '(') {
                     salida.append(pila.pop());

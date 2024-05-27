@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Preguntas.Hanoi;
+package EjerciciosAvances;
 
 import java.util.Stack;
 import java.util.Scanner;
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author jtorr
  */
-public class Tower {
+public class Clase11 {
 
     private Stack<Integer> discos;
     private String name;
