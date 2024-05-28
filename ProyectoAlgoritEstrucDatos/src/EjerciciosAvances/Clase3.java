@@ -87,9 +87,14 @@ public class Clase3 {
                     break;
 
                 case 3:
-                    System.out.println("El dato que encabeza la cola es: " + mc.consultarFrente());
-                    break;
-
+                    if (!mc.estaVacio()) {
+                        System.out.println("El dato que encabeza la cola es: " + mc.consultarFrente());
+                        break;
+                    }
+                    if (mc.estaVacio()) {
+                        System.out.println("La cola esta vacia");
+                        break;
+                    }
                 case 4:
                     if (mc.estaVacio()) {
                         System.out.println("La cola esta vacia");
