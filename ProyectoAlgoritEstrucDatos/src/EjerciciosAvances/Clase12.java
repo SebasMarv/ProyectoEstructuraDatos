@@ -2,16 +2,6 @@ package EjerciciosAvances;
 
 import java.util.Stack;
 
-/**
- * La clase Clase12 representa un programa que verifica si una expresión
- * postfija es válida.
- * Una expresión postfija es una notación matemática en la que los operadores se
- * colocan después de los operandos.
- * Esta clase contiene un método principal que muestra el resultado de la
- * validación de una expresión postfija.
- * También contiene un método para verificar si una expresión postfija es
- * válida.
- */
 public class Clase12 {
 
     public static void main(String[] args) {

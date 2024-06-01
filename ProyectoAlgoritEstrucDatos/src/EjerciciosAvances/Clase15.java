@@ -2,11 +2,6 @@ package EjerciciosAvances;
 
 import java.util.Stack;
 
-/**
- * La clase Clase15 es una clase que contiene métodos para convertir una
- * expresión infija a una expresión postfija
- * y para convertir una expresión postfija a código máquina.
- */
 public class Clase15 {
 
     public static void main(String[] args) {
